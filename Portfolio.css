@@ -1,0 +1,409 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.ch {
+    color: whitesmoke;
+    font-size: 35px;
+    margin-right: 640px;
+    font-family: Times New Roman;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    color: white;
+    position: fixed;
+    background-color: black;
+    font-family: bold;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    z-index: 1000;
+}
+
+nav {
+    align-items: center;
+    display: flex;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li {
+    color: white;
+    margin-right: 25px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.hero {
+    padding-left: 30%;
+    padding-top: 7%;
+    padding-bottom: 40%;
+    padding-right: 30%;
+    background-image: url('images/heros1.png');
+    background-size: cover !important;
+    background-position: center;
+    color: black;
+}
+
+.hero h1,
+.hero h2 {
+    font-size: 40px;
+    text-decoration: none !important;
+}
+
+.hero pre {
+    margin-left: 70px;
+    font-size: 40px;
+    text-decoration: none !important;
+    font-family: Times New Roman, serif;
+}
+
+.Education {
+    background-image: url('https://d33wubrfki0l68.cloudfront.net/5c71bc45356f2b550ac87b19eb115007e5b0953b/78d8d/static/waves_violet-37d9022b34fe32b9a566104ee1b0b8e9.jpg');
+}
+
+.Education img {
+    border-radius: 10px;
+    margin-top: 90px;
+    margin-left: 80px;
+    margin-right: 70px;
+    margin-bottom: 115px;
+}
+
+.ednew {
+    display: flex;
+    align-items: center;
+}
+
+.edu {
+    background-color: #FF308B;
+    padding-left: 100px;
+    font-size: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-family: Times New Roman, serif;
+}
+
+.ed1 {
+    text-align: left;
+}
+
+.ed1 h1 {
+    color: #00008B;
+}
+
+.ed1 h2 {
+    color: darkred;
+    margin-bottom: 5px;
+}
+
+.ed1 h3 {
+    color: #fe2c2c;
+    margin-bottom: 10px;
+}
+
+.ed1 h2 pre {
+    font-size: 25px;
+    margin-left: 15px;
+    color: black;
+}
+
+.sk,
+.aofh {
+    color: darkblue;
+    background-color: yellow;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 45px;
+    font-family: Times New Roman, serif;
+    text-align: center;
+    text-decoration: blink;
+}
+
+.Skills {
+    padding-bottom: 70px;
+    background-image: url('https://th.bing.com/th/id/R.6b2f729f5a8912841205bd818e8219cf?rik=KfRaEmssLB3a8A&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fvPopEp4.png&ehk=c4VRaViorttScYwHvQmsZEKf4RtXgg7OSUwyckwPcbY%3d&risl=&pid=ImgRaw&r=0');
+}
+
+.Skills1,
+.Skills2 {
+    display: flex;
+    margin-left: 300px;
+    margin-bottom: 10px;
+    margin-top: 45px;
+}
+
+.soft,
+.softtool {
+    margin-right: 250px;
+    border: brown 3px solid;
+}
+
+.nw,
+.nwtool {
+    border: brown 3px solid;
+}
+
+.Skills1 h1,
+.Skills2 h1 {
+    text-align: center;
+    background-color: lightyellow;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    padding: 10px;
+}
+
+.Skills1 img,
+.Skills2 img {
+    border: brown 3px solid;
+}
+
+.Skills1 h1:hover,
+.Skills2 h1:hover {
+    transform: scale(1.1);
+}
+
+.soft .slideshow, .nw .slideshow, .softtool .slideshow, .nwtool .slideshow {
+    display: flex;
+    width: 300px;
+    height: 320px;
+    border: brown 3px solid;
+    overflow: hidden;
+}
+
+.aofslides .slideshow {
+    display: flex;
+    width: 80%;
+    height: 600px;
+    border: green 5px solid;
+    overflow: hidden;
+    align-items: center;
+    margin-top: 60px;
+    margin-left: 10%;
+    border-radius: 10px;
+}
+
+.soft img,
+.nw img,
+.softtool img,
+.nwtool img {
+    flex: 0 0 auto;
+    width: 300px;
+    height: 320px;
+    transition: transform 1s ease-in-out;
+    animation: slide 12s infinite;
+}
+.Aof{
+    padding-bottom:80px;
+    background-image: url('https://wallpapercave.com/wp/tmx6W6N.png');
+}
+@keyframes slide {
+    0%, 16.66% {
+        transform: translateX(0);
+    }
+
+    16.66%, 33.33% {
+        transform: translateX(-100%);
+    }
+
+    33.33%, 50% {
+        transform: translateX(-200%);
+    }
+
+    50%, 66.66% {
+        transform: translateX(-300%);
+    }
+
+    66.66%, 83.33% {
+        transform: translateX(-400%);
+    }
+
+    83.33%, 100% {
+        transform: translateX(-500%);
+    }
+}
+.Aof .aofslides img {
+    flex: 0 0 auto;
+    width: 100%;
+    height: 100%;
+    animation-name: aofslides-slide;
+    animation-duration: 11s;
+    animation-iteration-count: infinite;
+}
+@keyframes aofslides-slide {
+    0%, 25.00% {
+        transform: translateX(0);
+    }
+
+    25%, 50% {
+        transform: translateX(-100%);
+    }
+
+    50%, 75% {
+        transform: translateX(-200%);
+    }
+
+    75%, 100% {
+        transform: translateX(-300%);
+    }
+}
+
+.pro {
+    font-size: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    width: 100%;
+    font-family: Times New Roman, serif;
+    background-color: brown;
+    color: white;
+}
+
+.Project {
+    padding-bottom: 60px;
+    background-image: url('https://projectharmony.com/wp-content/uploads/2019/01/light-purple-bg.jpg');
+}
+
+.proj1t pre,
+.proj2t pre,
+.proj3t pre {
+    font-size: 20px;
+}
+
+.proj1,
+.proj2,
+.proj3,
+.proj4{
+    display: flex;
+    margin-left: 70px;
+    margin-top: 70px;
+}
+
+.proj1t {
+    margin-top: 70px;
+    margin-left: 35px;
+}
+
+.proj2t {
+    margin-top: 45px;
+    margin-left: 35px;
+}
+
+.proj3t {
+    margin-top: 45px;
+    margin-left: 35px;
+}
+/* style.css */
+
+/* Your existing styles */
+.contactsection{
+    background-color: lightgreen;
+}
+.contactsection h1{
+    font-family: monospace;
+    background-color: black;
+    font-size:45px;
+    text-align: center;
+    margin-bottom:5%;
+    padding:5px;
+    color: white;
+}
+/* Contact section */
+.Contact {
+   padding-bottom:1.3%; 
+    background-color:lightgoldenrodyellow;
+    text-align: center;
+}
+
+.con {
+    color: white;
+    background-color: black;
+    font-size: 36px;
+    margin-top: 5%;
+    margin-bottom:2.5%;
+}
+
+.glog, .llog, .gitlog {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.glog img, .llog img, .gitlog img {
+    margin-right: 10px;
+    width: 30px; /* Adjust size if needed */
+    height: 30px; /* Adjust size if needed */
+    border-radius: 50%; /* Make the images round */
+}
+
+.glog h2, .llog h2, .gitlog h2 {
+    margin: 0;
+    font-size: 20px;
+    color: #333;
+}
+
+.llog a, .gitlog a {
+    text-decoration: none;
+    color: #0077b5; /* LinkedIn blue color */
+}
+
+.gitlog a {
+    color: #333; /* GitHub black color */
+}
+
+/* Contact form */
+.contact-form {
+    margin: 20px auto;
+    max-width: 500px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px; /* Make the form edges smoother */
+    background-color: lightblue;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.contact-form h2 {
+    margin-bottom: 20px; /* Increase space below heading */
+    font-size: 28px; /* Decrease heading font size */
+    color: #007bff; /* Heading color */
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px; /* Increase input padding */
+    margin-bottom: 20px; /* Increase space between inputs */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form textarea {
+    height: 150px;
+}
+
+.contact-form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px; /* Increase button padding */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Add smooth transition */
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
