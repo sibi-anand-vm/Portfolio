@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Page</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="script.js" type="text/javascript"></script>
+    <script
+  type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+  (function () {
+    emailjs.init({
+      publicKey: 'M_GB0D5NLJ5AipIfN',
+    });
+  })();
+</script>
+</head>
+<body>
+    <div id="landarea">
+        <video autoplay muted loop id="bg-video">
+            <source src="sources/earth.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div id="latexts">
+            <h1 class="typing-animatio">Hello, I'm <span class="orange-text">Sibi Anand</span></h1>
+            <h2>I'm a MERN Stack Developer</h2>
+        </div>
+    </div>
+
+    <nav id="navbar">
+        <ul>
+            <li><a href="#landarea">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#EEsection">Exp & Edu</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#triangle">Contact</a></li>
+        </ul>
+    </nav>
+    <a id="projects">
+    <div id="Projectsection">
+        <h1 class="animate"><span>Projects</span></h1>
+        <div class="imgcards animate">
+            <div class="project-container">
+                <div class="project-name"><h3>Video Streaming Platform</h3>
+                    <p>Developed a MERN stack Movie streaming website with videos stored on Google Drive. Implemented user authentication, movie categorization, and seamless video playback using technologies like MongoDB, Express.js, React.js, Node.js, Crypto.js, and JWT.</p>
+                    </div>
+                <div class="image-container">
+                    <div class="image-item"><img src="sources/image1.jpg" alt="Image 1"></div>
+                    <div class="image-item"><img src="sources/image2.jpg" alt="Image 2"></div>
+                    <div class="image-item"><img src="sources/image3.jpg" alt="Image 3"></div>
+                </div>
+            </div>
+        </div>
+        <div class="imgcards animate">
+            <div class="project-container">
+                <div class="project-name"> <h3>Online learning Platform</h3>
+                    <p>Built a comprehensive online learning system using the MERN stack, designed to be user-friendly for efficient navigation and utilization. Technologies used include MongoDB, Express.js, React.js, and Node.js.</p>
+                    </div>
+                <div class="image-container">
+                    <div class="image-item"><img src="sources/image4.jpg" alt="Image 4"></div>
+                    <div class="image-item"><img src="sources/image5.jpg" alt="Image 5"></div>
+                    <div class="image-item"><img src="sources/image6.jpg" alt="Image 6"></div>
+                </div>
+            </div>
+        </div>
+        <div class="imgcards animate">
+            <div class="project-container">
+                <div class="project-name"><h3>Recipe Recommendation System</h3>
+                    <p>This application recommends recipes based on user preferences and ingredients, developed using JavaFX and SceneBuilder, with MySQL for data storage.</p>
+                    </div>
+                <div class="image-container">
+                    <div class="image-item"><img src="sources/image7.png" alt="Image 7"></div>
+                    <div class="image-item"><img src="sources/image8.png" alt="Image 8"></div>
+                    <div class="image-item"><img src="sources/image9.png" alt="Image 9"></div>
+                </div>
+            </div>
+        </div>
+        <div class="imgcards animate">
+            <div class="project-container">
+                <div class="project-name"> <h3>Sports Event Organizer</h3>
+                    <p>This application is designed for managing users' events in cultural lives, developed using JavaFX and SceneBuilder, and MySQL for data storage.</p>
+                    </div>
+                <div class="image-container">
+                    <div class="image-item"><img src="sources/image10.png" alt="Image 7"></div>
+                    <div class="image-item"><img src="sources/image11.png" alt="Image 8"></div>
+                    <div class="image-item"><img src="sources/image12.png" alt="Image 9"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="EEsection">
+        <h1 class="animate"><span>Experience</span></h1>
+        <div id="EE1">
+            <div class="card animate">
+                <img src="sources/image13.png" alt="Image 9">
+                <h2>MERN Stack</h2>
+                <p>Experienced in the MERN stack, focusing on secure API implementation and database connectivity for user authentication. Thrive in collaborative environments, constantly learning and adapting to new technologies.</p>
+            </div>
+            <div class="card animate">
+                <img src="sources/image14.jpeg" alt="Image 10">
+                <h2>Web Development</h2>
+                <p>Mastered HTML, CSS, and JS during the Octanet internship by creating a responsive job portfolio site. Collaborated with mentors to tackle challenges, enhancing my web development skills for future projects.</p>
+            </div>
+        </div>
+        <h1 class="animate"><span>Education</span></h1>
+        <div id="EE2">
+            <div class="ecard animate">
+                <img src="sources/image15.jpeg" alt="Image 9">
+                <h2>B.E ECE</h2>
+                <h4>Sri Eshwar College Of Engineering</h4>
+                <p>2022 - 2026</p>
+                <h4>CGPA: 8.5/10</h4>
+            </div>
+            <div class="ecard animate">
+                <img src="sources/image16.jpeg" alt="Image 9">
+                <h2>HSC</h2>
+                <h4 style="color: white;">R.G.M Hr Sec School</h4>
+                <h4>Pethappampatti</h4>
+                <p>2022</p>
+                <h4>Percentage: 83.83%</h4>
+            </div>
+            <div class="ecard animate">
+                <img src="sources/image16.jpeg" alt="Image 9">
+                <h2>SSLC</h2>
+                <h4 style="color: white;">R.G.M Hr Sec School</h4>
+                <h4>Pethappampatti</h4>
+                <p>2020</p>
+                <h4>Percentage: 91.20%</h4>
+            </div>
+        </div>
+    </div>
+    <div id="Skills">
+        <h1 class="animate"><span>What I do</span></h1>
+        <div id="scards1">
+            <div class="scard">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png" alt="HTML Logo">
+            </div>
+            <div class="scard">
+                <img src="https://creazilla-store.fra1.digitaloceanspaces.com/icons/3259806/py-icon-md.png" alt="HTML Logo">
+            </div>
+            <div class="scard">
+                <img src="https://th.bing.com/th/id/OIP.9sxRuKFv0vlXLzUNWUXFEAHaHa?rs=1&pid=ImgDetMain" alt="HTML Logo">
+            </div>
+            <div class="scard">
+                <img src="https://th.bing.com/th/id/OIP.zqv5oLb_LW4F80VVwCbquwHaKy?rs=1&pid=ImgDetMain" alt="HTML Logo">
+            </div>
+            <div class="scard">
+                <img src="https://th.bing.com/th/id/OIP.SYjonC1KDtbOoTQDBRbSBwAAAA?rs=1&pid=ImgDetMain" alt="HTML Logo">
+            </div>
+            <div class="scard">
+                <img src="https://cdn-icons-png.flaticon.com/512/9307/9307630.png" alt="HTML Logo">
+            </div>
+        </div>
+        <div id="scards2">
+            <div class="scard">
+                <img src="https://www.progclasses.com/img/datastructure.png" alt="HTML Logo">
+            </div>
+            <div class="scard">
+                <img src="https://cdn2.iconfinder.com/data/icons/coding-and-development-flat/60/Object-Oriented-Programming-program-developer-512.png" alt="HTML Logo">
+            </div>
+            <div class="scard">
+                <img src="https://miro.medium.com/max/776/1*Lad06lrjlU9UZgSTHUoyfA.png" alt="HTML Logo">
+            </div>
+            <div class="scard">
+                <img src="https://hurbad.com/wp-content/uploads/2021/12/Cisco-Packet-Tracer.png" alt="HTML Logo">
+            </div>
+            <div class="scard">
+                <img src="https://4.bp.blogspot.com/-mWBJmHuFZ_4/WQ3zIz9X8PI/AAAAAAAAFzo/4Wj6C0krnmIQ0s9FPZUCaj3ZcbPR2iSGgCPcB/w1200-h630-p-k-no-nu/398px-Wireshark_Logo_svg.png" alt="HTML Logo">
+            </div>
+            <div class="scard">
+                <img src="https://th.bing.com/th/id/OIP.GHPQTvkT3TqCadzvWvCZFgHaGs?rs=1&pid=ImgDetMain" alt="HTML Logo">
+            </div>
+        </div>
+        <div id="scards3">
+            <div class="scard">
+                <img src="https://freelogopng.com/images/all_img/1656733807canva-icon-png.png" alt="HTML Logo">
+            </div>
+            <div class="scard">
+                <img src="https://cdn.icon-icons.com/icons2/3053/PNG/512/microsoft_visual_studio_code_macos_bigsur_icon_189957.png" alt="HTML Logo">
+            </div>
+            <div class="scard">
+                <img src="https://www.pngall.com/wp-content/uploads/13/Mongodb-Transparent.png" alt="HTML Logo">
+            </div>
+            <div class="scard">
+                <img src="https://buttercms.com/static/images/tech_banners/ExpressJS.8587dd0647ca.png" alt="HTML Logo">
+            </div>
+            <div class="scard">
+                <img src="https://pnghq.com/wp-content/uploads/2023/02/icon-react-js-logo-png-3934.png" alt="HTML Logo">
+            </div>
+            <div class="scard">
+                <img src="https://download.logo.wine/logo/Node.js/Node.js-Logo.wine.png" alt="HTML Logo">
+            </div>
+        </div>
+    </div>
+
+    <div id="triangle"></div>
+
+    <div id="contactform">
+        <form id="contactForm" onsubmit="sendMail(event)">
+            <h2>Contact Us</h2>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject">
+    
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+    
+            <button type="submit" id="submitbtn">Send</button>
+        </form>
+    </div>
+    <div id="logoarea">
+        <div class="logoc" style="text-align: center;">
+            <a href="https://www.linkedin.com/in/sibi-anand-v-m-13184131a/" target="_blank"><img src="https://pngimg.com/uploads/linkedIn/linkedIn_PNG8.png" alt="LinkedIn" height="40"></a>
+            <a href="https://github.com/sibi-anand-vm" target="_blank"><img src="https://logosmarcas.net/wp-content/uploads/2020/12/GitHub-Logo.png" alt="GitHub" height="40"></a>
+            <a href="https://www.instagram.com/captain__jack42_/?next=%2F&hl=en" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png" alt="Instagram" height="40"></a>
+            <a href="https://drive.google.com/file/d/1eyoXTam9AyYAOEoSlD9qzjc0oe308lDL/view?usp=sharing" target="_blank"><img src="https://th.bing.com/th/id/R.9725ddd21ba6ac4a6b9d527745d4c12c?rik=fyYpdINbmlwdBg&riu=http%3a%2f%2fwww.pngmart.com%2ffiles%2f8%2fResume-PNG-Clipart.png&ehk=Qky%2f2MQKqfQ8JVH7sJDQf7xG9Xra7MsRrya3JcsWeCg%3d&risl=&pid=ImgRaw&r=0" alt="Resume" height="40"></a>
+          </div>
+        <div class="name">V.M.Sibi Anand Portfolio</div>
+    </div>
+</body>
+</html>
